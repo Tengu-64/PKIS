@@ -6,15 +6,6 @@ import (
 	"os"
 )
 
-// type LenWords struct {
-// 	wordsLen        uint
-// 	inputWordsCount uint
-// }
-
-// func (wrds LenWords) WordsInfo() {
-// 	fmt.Println("Всего", wrds.wordsLen, "слова. Введенное слово встречается", wrds.inputWordsCount, "раза")
-// }
-
 func main() {
 	var path string
 	fmt.Println("Введите путь к файлу:")
